@@ -377,10 +377,10 @@ export default class Game {
 
                 if (this.ball.player == null) {
 
-                    this.ball.lastPlayer.setQuote("Faul");
+                    this.ball.lastPlayer.setQuote("Foul!");
                 }
                 else if ((this.ball.x < winningArea && this.ball.player.team === 0) || ((this.ball.x > fieldWidth - winningArea) && this.ball.player.team ===1)) {
-                    this.ball.player.setQuote("Faul");
+                    this.ball.player.setQuote("Foul!");
                 } else {
 
                     for (let player of this.players.filter(p => p.team === this.ball.player.team)) {
