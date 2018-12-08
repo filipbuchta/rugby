@@ -456,7 +456,7 @@ export default class Game {
     }
 
     kick() {
-        this.ball.throw(this.ball.x + 2 * (this.ball.player.team === 0 ? 1 : -1), this.ball.y + (Math.random() * 2 - 1), 2, 0.2);
+        this.ball.throw(this.ball.x + 2 * (this.ball.player.team === 0 ? 1 : -1), this.ball.y + (Math.random() * 2 - 1), 2, 0.25);
     }
 
     winnersThrow() {
