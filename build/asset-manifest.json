@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.85c37ae0.chunk.css",
-  "main.js": "/static/js/main.09390a3d.chunk.js",
-  "main.js.map": "/static/js/main.09390a3d.chunk.js.map",
-  "static/js/1.a93698c5.chunk.js": "/static/js/1.a93698c5.chunk.js",
-  "static/js/1.a93698c5.chunk.js.map": "/static/js/1.a93698c5.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.85c37ae0.chunk.css.map": "/static/css/main.85c37ae0.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.58371b3f39e82abd1116da766f943d75.js": "/precache-manifest.58371b3f39e82abd1116da766f943d75.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/rugby/build/static/css/main.85c37ae0.chunk.css",
+  "main.js": "/rugby/build/static/js/main.40a109b9.chunk.js",
+  "main.js.map": "/rugby/build/static/js/main.40a109b9.chunk.js.map",
+  "static/js/1.a93698c5.chunk.js": "/rugby/build/static/js/1.a93698c5.chunk.js",
+  "static/js/1.a93698c5.chunk.js.map": "/rugby/build/static/js/1.a93698c5.chunk.js.map",
+  "runtime~main.js": "/rugby/build/static/js/runtime~main.f013f2cc.js",
+  "runtime~main.js.map": "/rugby/build/static/js/runtime~main.f013f2cc.js.map",
+  "static/css/main.85c37ae0.chunk.css.map": "/rugby/build/static/css/main.85c37ae0.chunk.css.map",
+  "index.html": "/rugby/build/index.html",
+  "precache-manifest.d240e59e8dd26e2c3f374dcb009fac7c.js": "/rugby/build/precache-manifest.d240e59e8dd26e2c3f374dcb009fac7c.js",
+  "service-worker.js": "/rugby/build/service-worker.js"
 }
