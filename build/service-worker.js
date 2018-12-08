@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rugby/build/precache-manifest.ad08d150686bf378643775bc7be29e6d.js"
+  "/rugby/build/precache-manifest.cfb4b76f756a3a279eefcee8e9febfe8.js"
 );
 
 workbox.clientsClaim();

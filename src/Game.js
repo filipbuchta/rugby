@@ -104,9 +104,12 @@ export default class Game {
 
 
     onAssetsLoaded() {
-        setTimeout(
+        setInterval(
             () => {
-                this.playSound("song.mp3");
+                let sound = this.assets["song.mp3"];
+                if (sound.currentTime === 0) {
+                    sound.play();
+                }
             }, 1000);
 
         this.assets["doctorSprite.json"] = JSON.parse(JSON.stringify(this.assets["playerSprite.json"]));
@@ -295,7 +298,7 @@ export default class Game {
                     // i have a ball
                     if (player === this.ball.player) {
                         if ((player.team === 0 && player.x > fieldWidth / 2 - 32) || (player.team === 1 && player.x < fieldWidth / 2 + 32)) { // at the end of our field
-                            console.log("kick");
+
                             player.direction = player.team === 0;
                             this.kick(); // kick ball
                         } else {
