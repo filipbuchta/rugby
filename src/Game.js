@@ -104,7 +104,10 @@ export default class Game {
 
 
     onAssetsLoaded() {
-        this.playSound("song.mp3");
+        setTimeout(
+            () => {
+                this.playSound("song.mp3");
+            }, 1000);
 
         this.assets["doctorSprite.json"] = JSON.parse(JSON.stringify(this.assets["playerSprite.json"]));
 

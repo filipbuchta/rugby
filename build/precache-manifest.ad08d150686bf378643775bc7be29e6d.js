@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/rugby/build/static/js/runtime~main.f013f2cc.js"
   },
   {
-    "revision": "9b11371c7dd96ceb36cd",
-    "url": "/rugby/build/static/js/main.9b11371c.chunk.js"
+    "revision": "1e0fd3a72df6205ab6d3",
+    "url": "/rugby/build/static/js/main.1e0fd3a7.chunk.js"
   },
   {
     "revision": "a93698c5d5e011517990",
     "url": "/rugby/build/static/js/1.a93698c5.chunk.js"
   },
   {
-    "revision": "9b11371c7dd96ceb36cd",
+    "revision": "1e0fd3a72df6205ab6d3",
     "url": "/rugby/build/static/css/main.42b88b55.chunk.css"
   },
   {
-    "revision": "6dd68f7d18ac3a05659b389c71ad262a",
+    "revision": "2f53d4068f414888c35e1da708d60581",
     "url": "/rugby/build/index.html"
   }
 ];
