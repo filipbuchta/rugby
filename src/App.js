@@ -1,28 +1,40 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Game from "./Game";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    canvas;
+    game;
+
+    constructor(props) {
+        super(props);
+    }
+
+
+    componentDidMount() {
+        this.game = new Game(this.canvas);
+    }
+
+
+    render() {
+        return (
+            <div className="App">
+                <canvas ref={(ref) => this.canvas = ref} width="512" height="384"
+                        style={{
+                            imageRendering: "pixelated",
+                            padding: 0,
+                            margin: "auto",
+                            display: "block",
+                            position: "absolute",
+                            border:"1px solid black",
+                            top: 0,
+                            bottom: 0,
+                            left: 0,
+                            right: 0
+                        }}/>
+            </div>
+        );
+    }
 }
 
 export default App;

@@ -1,0 +1,22 @@
+{
+  "frameSize": {
+    "width": 32,
+    "height": 32
+  },
+  "animations": {
+    "idle": {
+      "firstFrame": 0,
+      "frameCount": 1,
+      "loop": true
+    },
+    "run": {
+      "firstFrame": 0,
+      "frameCount": 4,
+      "loop": true
+    },
+    "kick": {
+      "firstFrame": 0,
+      "frameCount": 1
+    }
+  }
+}
