@@ -18,20 +18,15 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
+            <div style={{textAlign: "center"}}>
                 <canvas ref={(ref) => this.canvas = ref} width="512" height="384"
                         style={{
                             imageRendering: "pixelated",
-                            padding: 0,
                             margin: "auto",
-                            display: "block",
-                            position: "absolute",
-                            border:"1px solid black",
-                            top: 0,
-                            bottom: 0,
-                            left: 0,
-                            right: 0
+                            display: "inline-block",
                         }}/>
+
+                <p style={{color:"darkgray"}}>Arrow keys to move, space to throw</p>
             </div>
         );
     }

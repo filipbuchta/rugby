@@ -67,7 +67,6 @@ export default class Game {
         Game.lastKeys = [];
 
         this.selectedTeam = (Math.random() * 2) | 0;
-        this.gameState = "GAME";
 
         this.canvas = canvas;
         window.addEventListener('keydown', (event) => {
@@ -166,15 +165,20 @@ export default class Game {
 
         this.timer = 0;
 
-        if (this.score[0] > 2 || this.score[1] > 2) {
 
-            for (let player of this.players) {
-                player.team = this.selectedPlayer.team;
-                player.role = "ending";
+        if (!window["debug"]) {
+            if (this.score[0] > 2 || this.score[1] > 2) {
+
+                for (let player of this.players) {
+                    player.team = this.selectedPlayer.team;
+                    player.role = "ending";
+                }
+
+                this.selectedPlayer = null;
+
             }
-
-            this.selectedPlayer = null;
         }
+
 
 
         Game.keys = [];
@@ -459,10 +463,6 @@ export default class Game {
 
         ctx.clearRect(0, 0, this.canvas.clientWidth, this.canvas.clientHeight);
 
-
-        if (this.gameState === "END") {
-            return;
-        }
 
         // ctx.setTransform(1, 0, 0, 1, Game.camera.x, Game.camera.y);
         ctx.setTransform(1, 0, 0, 1, 0, 0);
