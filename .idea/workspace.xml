@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f0457b9-d656-416b-a546-abcf2b4192d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +48,7 @@
         <counts>
           <entry key="css" value="64" />
           <entry key="html" value="45" />
-          <entry key="js" value="17464" />
+          <entry key="js" value="17474" />
           <entry key="json" value="26" />
         </counts>
       </usages-collector>
@@ -58,7 +57,7 @@
           <entry key="CSS" value="64" />
           <entry key="HTML" value="45" />
           <entry key="JSON" value="26" />
-          <entry key="JavaScript" value="17464" />
+          <entry key="JavaScript" value="17474" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="458" column="128" selection-start-line="458" selection-start-column="128" selection-end-line="458" selection-end-column="128" />
+            <state relative-caret-position="251">
+              <caret line="382" column="52" selection-start-line="382" selection-start-column="52" selection-end-line="382" selection-end-column="52" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#1170#2332#0" />
@@ -159,7 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>playSoun</find>
       <find>playSound</find>
       <find>selectedpla</find>
       <find>collision</find>
@@ -189,6 +187,7 @@
       <find>manifest</find>
       <find>setinter</find>
       <find>kick</find>
+      <find>faul</find>
     </findStrings>
     <replaceStrings>
       <replace>.ball.x</replace>
@@ -279,7 +278,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544313360297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544313987779" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../r2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Projects\rugby\node_modules\eslint" />
@@ -495,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="458" column="128" selection-start-line="458" selection-start-column="128" selection-end-line="458" selection-end-column="128" />
+        <state relative-caret-position="251">
+          <caret line="382" column="52" selection-start-line="382" selection-start-column="52" selection-end-line="382" selection-end-column="52" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <element signature="e#1170#2332#0" />
